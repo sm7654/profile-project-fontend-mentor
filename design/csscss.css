@@ -1,0 +1,161 @@
+/*  Victor Crest
+  26
+  London
+
+  80K
+  Followers
+
+  803K
+  Likes
+
+  1.4K
+  Photos*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+  body {
+    max-width: 100%;
+    min-height: 768px;
+
+    margin: 0%;
+
+    display: grid;
+    place-items: center;
+
+    overflow-x: hidden;
+
+    background-color: #19a1ad;
+  }
+
+
+
+  .card {
+    width: 369px;
+    height: 52.0156%;
+
+    position: relative;
+
+    border-radius: 13px;
+
+    z-index: 1;
+
+    background-color: white;
+  }
+  .top_image {
+    width: 100%;
+    height: 37.5%;
+
+
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+
+    background: url(../images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .profile_pic {
+    width: 100%;
+
+    margin-top:-50px;
+    
+    display: grid;
+    justify-content: center;
+  }
+
+  .profile_pic img{
+    width: 96px;
+    height: 96px;
+
+    padding: 0%;
+    box-sizing: border-box;
+
+    border: 4px solid #fff;
+    border-radius: 48px;
+  }
+
+
+  .details {
+    width: 100%;
+    height: 155px;
+
+    margin-top: -50px;
+
+    border-bottom: 1px solid #f1f1f1;
+  }
+
+  h1 {
+    width: auto;
+
+    margin: 0;
+    padding-top: 67px;
+
+    text-align: center;
+
+    font-family: 'Kumbh Sans',sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  .age_Victor {
+    padding-left: 5px;
+
+    font-weight: 400;
+    font-family: 'Kumbh Sans',sans-serif;
+
+    color: #8c8c95;
+  }
+
+  .london {
+    padding: 0;
+
+    text-align: center;
+
+    font-family: 'Kumbh Sans',sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+
+    color: #8c8c95;
+  }
+
+  ul {
+    width: 100%;
+    height: 93px;
+
+    padding: 0; 
+    margin: 0;
+
+    list-style: none;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .bold_li_text {
+    text-align: center;
+
+    font-size: 1.2rem;
+    font-family: 'Kumbh Sans',sans-serif;
+    font-weight: 700;
+
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 4px;
+  }
+
+  .type_stat {
+    font-family: 'Kumbh Sans',sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+
+    color: #909090;
+  }
+
+
